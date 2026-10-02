@@ -17,7 +17,7 @@ import {
 import { applyWeather, createWeatherPlan, draw, shuffle } from "./weather.js";
 
 const DEFAULT_HOST = "127.0.0.1";
-const DEFAULT_PORT = process.env.PORT || 14095;
+const DEFAULT_PORT = process.env.PORT || 10000;
 
 function envelope(type, payload = {}) {
     return { type, payload };
