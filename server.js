@@ -16,7 +16,7 @@ import {
 } from "./gameLogic.js";
 import { applyWeather, createWeatherPlan, draw, shuffle } from "./weather.js";
 
-const DEFAULT_HOST = process.env.HOST || "127.0.0.1";
+const DEFAULT_HOST = process.env.HOST || "0.0.0.0";
 const DEFAULT_PORT = process.env.PORT || 10000;
 
 function envelope(type, payload = {}) {
