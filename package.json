@@ -1,0 +1,19 @@
+{
+    "name": "lumie-tcg-server",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "start": "node server.js",
+        "test": "node --test"
+    },
+    "dependencies": {
+        "ws": "^8.21.3"
+    },
+    "description": "",
+    "main": "server.js",
+    "directories": {
+        "test": "test"
+    },
+    "keywords": []
+}
